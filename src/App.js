@@ -82,7 +82,7 @@ const App = () => {
               <Navbar />
             </div>
             <div>
-              <ThemeSettings />
+              {themeSettings && <ThemeSettings />}
 
               <Routes>
                 {/* dashboard  */}
